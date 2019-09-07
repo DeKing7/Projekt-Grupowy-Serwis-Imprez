@@ -11,8 +11,17 @@
 3. Turysta
 
 # Funkcjonalność Projektu:
-1. Tworzenie planu
+1. Tworzenie planu imprez
+a) Możliwość zaznaczenia paru imprez o różnych porach by móc stworzyć plan dnia
 2. Zapraszanie i akceptacja uczestników
+a) Funkcja znajdywania uczestników poprzez login, email, imię, nazwisko
 3. Rejestrowanie kont
-4. Wyszukiwaie imprez 
+a) Możiwość utworzenia konta z indywidualnym mailem i hasłem
+4. Wyszukiwaie imprez
+a) Szukanie i zaznaczananie z listy wybranych imprez
+b) Sortowanie
+c) Wydzielanie imprez ze względu na tematyczność
 5. Funkcja Feedbacku
+a) Dział komentarzy względem imprez
+6. Połączenie funkcjonalności z facebookiem
+a) Pobieranie i dodawanie zdjęć 
