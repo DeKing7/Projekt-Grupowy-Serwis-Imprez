@@ -26,7 +26,9 @@
 4. Wyszukiwaie imprez
 
   a) Szukanie i zaznaczananie z listy wybranych imprez
+  
   b) Sortowanie
+  
   c) Wydzielanie imprez ze względu na tematyczność
 
 5. Funkcja Feedbacku
