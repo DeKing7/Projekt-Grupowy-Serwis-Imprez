@@ -1,13 +1,13 @@
 # Projekt-Grupowy-Serwis-Imprez
 
 # Cel Projektu:
- 1. Stworzenie sprawnej i atrakcyjne aplikacji
- 2. Aplikacja pozwalająca na usprawnienie i przyspieszenie organizacji imprez
- 3. Dotarcie do jak nawiększej ilości klientów 
+ 1. Ułatwienie organizacji imprez
+ 2. Przyśpieszenie i optymalizacja procesu planowania
+ 3. Współpraca z klubami/miejscami kultury 
 
 # Odbiorca Projektu:
-1. Młody odbiorca (20-30 lat)
-2. Zagraniczy klient 
+1. Młody odbiorca (20-30 lat) któremu brak czasu na planowanie
+2. Zagraniczy klient nie znający miasta, szukający dobrej zabawy
 3. Turysta
 
 # Funkcjonalność Projektu:
