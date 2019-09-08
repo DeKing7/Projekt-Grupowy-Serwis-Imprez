@@ -13,29 +13,31 @@
 # Funkcjonalność Projektu:
 1. Tworzenie planu imprez
 
-  a) Możliwość zaznaczenia paru imprez o różnych porach by móc stworzyć plan dnia
+  a) Możliwość dodania miejsc, czasu oraz określenia ilości użytkowników imprezy
 
 2. Zapraszanie i akceptacja uczestników
 
-  a) Funkcja znajdywania uczestników poprzez login, email, imię, nazwisko
+  a) Funkcja znajdowania uczestników poprzez login, email, imię, nazwisko
 
 3. Rejestrowanie kont
 
   a) Możiwość utworzenia konta z indywidualnym mailem i hasłem
 
-4. Wyszukiwaie imprez
+4. Wyszukiwanie imprez
 
   a) Szukanie i zaznaczananie z listy wybranych imprez
   
   b) Sortowanie
   
-  c) Wydzielanie imprez ze względu na tematyczność
+  c) Wydzielanie imprez ze względu na tematykę
 
 5. Funkcja Feedbacku
 
   a) Dział komentarzy względem imprez
+  
+  b*) Możliwość dodawania zdjęć
 
-6. Połączenie funkcjonalności z facebookiem
+6. Połączenie funkcjonalności z Facebookiem
 
   a) Pobieranie i dodawanie zdjęć 
   
