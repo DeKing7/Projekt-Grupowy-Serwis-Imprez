@@ -2,6 +2,7 @@ package pl.honestit.spring.demo.controllers;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,9 +18,12 @@ public class RegistrationController {
 
     private UserRepository userRepository;
 
+    private PasswordEncoder passwordEncoder;
+
     @Autowired
-    public RegistrationController(UserRepository userRepository) {
+    public RegistrationController(UserRepository userRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @GetMapping
@@ -33,6 +37,7 @@ public class RegistrationController {
                                           String firstName,
                                           String lastName) {
         User user = new User();
+        String encodedPassword = passwordEncoder.encode(password);
         user.setPassword(password);
         user.setUsername(username);
         user.setFirstName(firstName);
