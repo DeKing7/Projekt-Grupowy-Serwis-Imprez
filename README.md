@@ -36,3 +36,5 @@
 6. Połączenie funkcjonalności z facebookiem
 
   a) Pobieranie i dodawanie zdjęć 
+  b) Znajdowanie wspólnych znajomych
+  c*) Możliwość rejestracji za pomocą Facebooka
