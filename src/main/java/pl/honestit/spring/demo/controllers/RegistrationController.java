@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import pl.honestit.spring.demo.model.dal.UserRepository;
 import pl.honestit.spring.demo.model.domain.User;
-
 import javax.servlet.http.HttpSession;
 
 @Controller
@@ -27,7 +26,7 @@ public class RegistrationController {
     }
 
     @GetMapping
-    public String preparepRegistrationPage() {
+    public String prepareRegistrationPage() {
         return "/WEB-INF/views/registration-page.jsp";
     }
 
@@ -37,7 +36,6 @@ public class RegistrationController {
                                           String firstName,
                                           String lastName) {
         User user = new User();
-        String encodedPassword = passwordEncoder.encode(password);
         user.setPassword(password);
         user.setUsername(username);
         user.setFirstName(firstName);

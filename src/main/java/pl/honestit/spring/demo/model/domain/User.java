@@ -20,7 +20,7 @@ import java.util.Objects;
         private String lastName;
         @Column(nullable = false)
         private Boolean active;
-        @Column (nullable = true)
+
 
         @Override
         public boolean equals(Object o) {
