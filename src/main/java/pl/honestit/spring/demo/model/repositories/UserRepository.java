@@ -1,4 +1,4 @@
-package pl.honestit.spring.demo.model.dal;
+package pl.honestit.spring.demo.model.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -7,9 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import pl.honestit.spring.demo.model.dal.UserRepository;
+import pl.honestit.spring.demo.model.repositories.UserRepository;
 import pl.honestit.spring.demo.model.domain.User;
-import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/register")
@@ -42,7 +41,7 @@ public class RegistrationController {
         user.setLastName(lastName);
 
         userRepository.save(user);
-        return "redirect:/index.html";
+        return "redirect:/home-page.sp.html";
     }
 
 }
