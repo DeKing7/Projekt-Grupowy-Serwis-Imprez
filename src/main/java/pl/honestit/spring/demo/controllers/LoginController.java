@@ -11,7 +11,7 @@ import pl.honestit.spring.demo.model.repositories.UserRepository;
 
 @Controller
     @RequestMapping("/login")
-    public class LoginControler {
+    public class LoginController {
 
 
         private UserRepository userRepository;
@@ -19,7 +19,7 @@ import pl.honestit.spring.demo.model.repositories.UserRepository;
         private PasswordEncoder passwordEncoder;
 
         @Autowired
-        public LoginControler(UserRepository userRepository, PasswordEncoder passwordEncoder) {
+        public LoginController(UserRepository userRepository, PasswordEncoder passwordEncoder) {
             this.userRepository = userRepository;
             this.passwordEncoder = passwordEncoder;
         }
