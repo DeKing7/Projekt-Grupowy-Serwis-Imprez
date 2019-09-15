@@ -27,7 +27,7 @@ import pl.honestit.spring.demo.model.repositories.UserRepository;
 
     @GetMapping
     public String preparepLoginPage() {
-        return "/WEB-INF/views/login-page.jsp";
+        return "login-page";
     }
 
     @PostMapping
@@ -43,7 +43,7 @@ import pl.honestit.spring.demo.model.repositories.UserRepository;
             user.setLastName(lastName);
 
             userRepository.save(user);
-            return "redirect:/home-page.jsp";
+            return "login-page";
         }
     }
 }

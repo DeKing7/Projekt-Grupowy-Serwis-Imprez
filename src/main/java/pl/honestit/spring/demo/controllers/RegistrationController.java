@@ -26,7 +26,7 @@ public class RegistrationController {
 
     @GetMapping
     public String prepareRegistrationPage() {
-        return "/WEB-INF/views/registration-page.jsp";
+        return "registration-page";
     }
 
     @PostMapping
@@ -41,7 +41,7 @@ public class RegistrationController {
         user.setLastName(lastName);
 
         userRepository.save(user);
-        return "redirect:/home-page.jsp";
+        return "registration-page";
     }
 
 }
