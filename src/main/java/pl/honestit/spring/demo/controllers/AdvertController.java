@@ -39,6 +39,6 @@ public class AdvertController {
         advertRepository.save(advert);
         log.info("Zapisano ogłoszenie: " + advert);
 
-        return "redirect:/";
+        return "redirect:/home-page.jsp";
     }
 }

@@ -41,7 +41,7 @@ public class RegistrationController {
         user.setLastName(lastName);
 
         userRepository.save(user);
-        return "redirect:/home-page.sp.html";
+        return "redirect:/home-page.jsp";
     }
 
 }

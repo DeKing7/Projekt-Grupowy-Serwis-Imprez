@@ -23,6 +23,6 @@ public class HomePageController {
     public String prepareHomePage(Model model) {
         List<Advert> allAdverts = advertRepository.findAllByOrderByPostedDesc();
         model.addAttribute("adverts", allAdverts);
-        return "home-page.jsp.html";
+        return "home-page.jsp";
     }
 }
